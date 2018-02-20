@@ -1,60 +1,99 @@
+
 body {
-    background-color: #777;
-    font-family: Arial, Helvetica, sans-serif; 
-    font: grey
-    font-size: 18px;
-    line-height: 150%
-    margin: auto;
+    background: #777;
+    align-content: center;
+    text-align: center;
     width: 960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 header {
-    background-color: #ebebeb;
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-p {
-    background-color: #ebebeb;
+#nav {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-section {
-    background-color: #ebebeb;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 490px
-}
-#aside {
-    width: 50%;
-    float: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #section {
-    width: 50%;
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 495px;
     float: left;
+
 }
+
+#aside {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 375px;
+    float: right;
+    overflow: auto;
+} 
 
 #article {
+    background; #777;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
     clear: both;
-    background-color: #777;
-
+    float: left;
+    width: 400px;
+    overflow: auto;
 }
 
-#h tags {
 
+#htags {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    clear: both;
+    width: 350px;
+    float: left;
+    overflow: auto;
 }
+
 #p {
-
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    clear: both;
+    width: 350px;
+    float: left;
+    overflow: auto;
 }
 
 footer {
-    background-color: #ebebeb;
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    overflow: auto;
 }
